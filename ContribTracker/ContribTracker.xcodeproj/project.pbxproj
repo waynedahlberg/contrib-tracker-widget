@@ -7,11 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0C0F0122B9E573400D3294C /* DevelopmentDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0112B9E573400D3294C /* DevelopmentDay.swift */; };
+		B0C0F0142B9E575300D3294C /* ContributionsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0132B9E575300D3294C /* ContributionsGraphView.swift */; };
+		B0C0F0162B9E596F00D3294C /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0152B9E596F00D3294C /* DateService.swift */; };
+		B0C0F0182B9E5A0200D3294C /* GitHubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0172B9E5A0200D3294C /* GitHubParser.swift */; };
+		B0C0F01B2B9E5CEF00D3294C /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = B0C0F01A2B9E5CEF00D3294C /* SwiftSoup */; };
+		B0C0F01D2B9E5E2600D3294C /* NewGHParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F01C2B9E5E2600D3294C /* NewGHParser.swift */; };
+		B0C0F0202B9E657A00D3294C /* View+AddBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F01F2B9E657A00D3294C /* View+AddBorder.swift */; };
+		B0C0F0262B9E6C9500D3294C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F4B90A2B9E50A800143B40 /* WidgetKit.framework */; };
+		B0C0F0272B9E6C9500D3294C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F4B90C2B9E50A800143B40 /* SwiftUI.framework */; };
+		B0C0F02C2B9E6C9500D3294C /* ContribTracker_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F02B2B9E6C9500D3294C /* ContribTracker_WidgetLiveActivity.swift */; };
+		B0C0F02E2B9E6C9500D3294C /* ContribTracker_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F02D2B9E6C9500D3294C /* ContribTracker_Widget.swift */; };
+		B0C0F0302B9E6C9500D3294C /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F02F2B9E6C9500D3294C /* AppIntent.swift */; };
+		B0C0F0322B9E6C9600D3294C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C0F0312B9E6C9600D3294C /* Assets.xcassets */; };
+		B0C0F0362B9E6C9600D3294C /* ContribTracker WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B0C0F0252B9E6C9400D3294C /* ContribTracker WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0C0F03A2B9E6CF800D3294C /* GitHubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0172B9E5A0200D3294C /* GitHubParser.swift */; };
+		B0C0F03B2B9E6CFB00D3294C /* NewGHParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F01C2B9E5E2600D3294C /* NewGHParser.swift */; };
+		B0C0F03C2B9E6CFD00D3294C /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0152B9E596F00D3294C /* DateService.swift */; };
+		B0C0F03D2B9E6CFF00D3294C /* DevelopmentDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0112B9E573400D3294C /* DevelopmentDay.swift */; };
+		B0C0F03E2B9E6D0500D3294C /* ContributionsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F0132B9E575300D3294C /* ContributionsGraphView.swift */; };
+		B0C0F03F2B9E6D0F00D3294C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B8F82B9E503000143B40 /* ContentView.swift */; };
+		B0C0F0412B9E6FF000D3294C /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = B0C0F0402B9E6FF000D3294C /* SwiftSoup */; };
+		B0C0F0422B9E704000D3294C /* View+AddBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F01F2B9E657A00D3294C /* View+AddBorder.swift */; };
+		B0C0F0432B9E704500D3294C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F4B8FA2B9E503100143B40 /* Assets.xcassets */; };
 		B0F4B8F72B9E503000143B40 /* ContribTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B8F62B9E503000143B40 /* ContribTrackerApp.swift */; };
 		B0F4B8F92B9E503000143B40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F4B8F82B9E503000143B40 /* ContentView.swift */; };
 		B0F4B8FB2B9E503100143B40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F4B8FA2B9E503100143B40 /* Assets.xcassets */; };
 		B0F4B8FE2B9E503100143B40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F4B8FD2B9E503100143B40 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0C0F0342B9E6C9600D3294C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0F4B8EB2B9E503000143B40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C0F0242B9E6C9400D3294C;
+			remoteInfo = "ContribTracker WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B0F4B9202B9E50A900143B40 /* Embed Foundation Extensions */ = {
@@ -20,6 +53,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				B0C0F0362B9E6C9600D3294C /* ContribTracker WidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -27,6 +61,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B0C0F0112B9E573400D3294C /* DevelopmentDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentDay.swift; sourceTree = "<group>"; };
+		B0C0F0132B9E575300D3294C /* ContributionsGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionsGraphView.swift; sourceTree = "<group>"; };
+		B0C0F0152B9E596F00D3294C /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		B0C0F0172B9E5A0200D3294C /* GitHubParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubParser.swift; sourceTree = "<group>"; };
+		B0C0F01C2B9E5E2600D3294C /* NewGHParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGHParser.swift; sourceTree = "<group>"; };
+		B0C0F01F2B9E657A00D3294C /* View+AddBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AddBorder.swift"; sourceTree = "<group>"; };
+		B0C0F0252B9E6C9400D3294C /* ContribTracker WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ContribTracker WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C0F02B2B9E6C9500D3294C /* ContribTracker_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContribTracker_WidgetLiveActivity.swift; sourceTree = "<group>"; };
+		B0C0F02D2B9E6C9500D3294C /* ContribTracker_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContribTracker_Widget.swift; sourceTree = "<group>"; };
+		B0C0F02F2B9E6C9500D3294C /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		B0C0F0312B9E6C9600D3294C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0C0F0332B9E6C9600D3294C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0F4B8F32B9E503000143B40 /* ContribTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContribTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F4B8F62B9E503000143B40 /* ContribTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContribTrackerApp.swift; sourceTree = "<group>"; };
 		B0F4B8F82B9E503000143B40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,20 +83,63 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B0C0F0222B9E6C9400D3294C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C0F0272B9E6C9500D3294C /* SwiftUI.framework in Frameworks */,
+				B0C0F0262B9E6C9500D3294C /* WidgetKit.framework in Frameworks */,
+				B0C0F0412B9E6FF000D3294C /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0F4B8F02B9E503000143B40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C0F01B2B9E5CEF00D3294C /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0C0F0102B9E572C00D3294C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0F0112B9E573400D3294C /* DevelopmentDay.swift */,
+				B0C0F0152B9E596F00D3294C /* DateService.swift */,
+				B0C0F0172B9E5A0200D3294C /* GitHubParser.swift */,
+				B0C0F01C2B9E5E2600D3294C /* NewGHParser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0C0F01E2B9E656F00D3294C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0F01F2B9E657A00D3294C /* View+AddBorder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B0C0F0282B9E6C9500D3294C /* ContribTracker Widget */ = {
+			isa = PBXGroup;
+			children = (
+				B0C0F02B2B9E6C9500D3294C /* ContribTracker_WidgetLiveActivity.swift */,
+				B0C0F02D2B9E6C9500D3294C /* ContribTracker_Widget.swift */,
+				B0C0F02F2B9E6C9500D3294C /* AppIntent.swift */,
+				B0C0F0312B9E6C9600D3294C /* Assets.xcassets */,
+				B0C0F0332B9E6C9600D3294C /* Info.plist */,
+			);
+			path = "ContribTracker Widget";
+			sourceTree = "<group>";
+		};
 		B0F4B8EA2B9E503000143B40 = {
 			isa = PBXGroup;
 			children = (
 				B0F4B8F52B9E503000143B40 /* ContribTracker */,
+				B0C0F0282B9E6C9500D3294C /* ContribTracker Widget */,
 				B0F4B9092B9E50A800143B40 /* Frameworks */,
 				B0F4B8F42B9E503000143B40 /* Products */,
 			);
@@ -60,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				B0F4B8F32B9E503000143B40 /* ContribTracker.app */,
+				B0C0F0252B9E6C9400D3294C /* ContribTracker WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,7 +158,9 @@
 			isa = PBXGroup;
 			children = (
 				B0F4B8F62B9E503000143B40 /* ContribTrackerApp.swift */,
+				B0C0F0102B9E572C00D3294C /* Model */,
 				B0F4B9242B9E520100143B40 /* Views */,
+				B0C0F01E2B9E656F00D3294C /* Extensions */,
 				B0F4B8FA2B9E503100143B40 /* Assets.xcassets */,
 				B0F4B8FC2B9E503100143B40 /* Preview Content */,
 			);
@@ -95,6 +187,7 @@
 		B0F4B9242B9E520100143B40 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B0C0F0132B9E575300D3294C /* ContributionsGraphView.swift */,
 				B0F4B8F82B9E503000143B40 /* ContentView.swift */,
 			);
 			path = Views;
@@ -103,6 +196,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B0C0F0242B9E6C9400D3294C /* ContribTracker WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C0F0372B9E6C9600D3294C /* Build configuration list for PBXNativeTarget "ContribTracker WidgetExtension" */;
+			buildPhases = (
+				B0C0F0212B9E6C9400D3294C /* Sources */,
+				B0C0F0222B9E6C9400D3294C /* Frameworks */,
+				B0C0F0232B9E6C9400D3294C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ContribTracker WidgetExtension";
+			packageProductDependencies = (
+				B0C0F0402B9E6FF000D3294C /* SwiftSoup */,
+			);
+			productName = "ContribTracker WidgetExtension";
+			productReference = B0C0F0252B9E6C9400D3294C /* ContribTracker WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		B0F4B8F22B9E503000143B40 /* ContribTracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F4B9012B9E503100143B40 /* Build configuration list for PBXNativeTarget "ContribTracker" */;
@@ -115,8 +228,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				B0C0F0352B9E6C9600D3294C /* PBXTargetDependency */,
 			);
 			name = ContribTracker;
+			packageProductDependencies = (
+				B0C0F01A2B9E5CEF00D3294C /* SwiftSoup */,
+			);
 			productName = ContribTracker;
 			productReference = B0F4B8F32B9E503000143B40 /* ContribTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -131,6 +248,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					B0C0F0242B9E6C9400D3294C = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					B0F4B8F22B9E503000143B40 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -146,18 +266,28 @@
 			);
 			mainGroup = B0F4B8EA2B9E503000143B40;
 			packageReferences = (
-				B0F4B9212B9E50F000143B40 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				B0C0F0192B9E5CEF00D3294C /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
 			productRefGroup = B0F4B8F42B9E503000143B40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B0F4B8F22B9E503000143B40 /* ContribTracker */,
+				B0C0F0242B9E6C9400D3294C /* ContribTracker WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B0C0F0232B9E6C9400D3294C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C0F0432B9E704500D3294C /* Assets.xcassets in Resources */,
+				B0C0F0322B9E6C9600D3294C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0F4B8F12B9E503000143B40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,18 +300,103 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B0C0F0212B9E6C9400D3294C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C0F03D2B9E6CFF00D3294C /* DevelopmentDay.swift in Sources */,
+				B0C0F03B2B9E6CFB00D3294C /* NewGHParser.swift in Sources */,
+				B0C0F0302B9E6C9500D3294C /* AppIntent.swift in Sources */,
+				B0C0F03E2B9E6D0500D3294C /* ContributionsGraphView.swift in Sources */,
+				B0C0F03A2B9E6CF800D3294C /* GitHubParser.swift in Sources */,
+				B0C0F03F2B9E6D0F00D3294C /* ContentView.swift in Sources */,
+				B0C0F0422B9E704000D3294C /* View+AddBorder.swift in Sources */,
+				B0C0F02C2B9E6C9500D3294C /* ContribTracker_WidgetLiveActivity.swift in Sources */,
+				B0C0F03C2B9E6CFD00D3294C /* DateService.swift in Sources */,
+				B0C0F02E2B9E6C9500D3294C /* ContribTracker_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0F4B8EF2B9E503000143B40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0F4B8F92B9E503000143B40 /* ContentView.swift in Sources */,
+				B0C0F0182B9E5A0200D3294C /* GitHubParser.swift in Sources */,
 				B0F4B8F72B9E503000143B40 /* ContribTrackerApp.swift in Sources */,
+				B0C0F0122B9E573400D3294C /* DevelopmentDay.swift in Sources */,
+				B0C0F0202B9E657A00D3294C /* View+AddBorder.swift in Sources */,
+				B0C0F0142B9E575300D3294C /* ContributionsGraphView.swift in Sources */,
+				B0C0F0162B9E596F00D3294C /* DateService.swift in Sources */,
+				B0C0F01D2B9E5E2600D3294C /* NewGHParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B0C0F0352B9E6C9600D3294C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C0F0242B9E6C9400D3294C /* ContribTracker WidgetExtension */;
+			targetProxy = B0C0F0342B9E6C9600D3294C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		B0C0F0382B9E6C9600D3294C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ContribTracker Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ContribTracker Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.ContribTracker.ContribTracker-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0C0F0392B9E6C9600D3294C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Y33CRE77K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ContribTracker Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ContribTracker Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waynedahlberg.ContribTracker.ContribTracker-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B0F4B8FF2B9E503100143B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -364,6 +579,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B0C0F0372B9E6C9600D3294C /* Build configuration list for PBXNativeTarget "ContribTracker WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C0F0382B9E6C9600D3294C /* Debug */,
+				B0C0F0392B9E6C9600D3294C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B0F4B8EE2B9E503000143B40 /* Build configuration list for PBXProject "ContribTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -385,7 +609,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B0F4B9212B9E50F000143B40 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+		B0C0F0192B9E5CEF00D3294C /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
 			requirement = {
@@ -394,6 +618,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0C0F01A2B9E5CEF00D3294C /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0C0F0192B9E5CEF00D3294C /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		B0C0F0402B9E6FF000D3294C /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0C0F0192B9E5CEF00D3294C /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B0F4B8EB2B9E503000143B40 /* Project object */;
 }
