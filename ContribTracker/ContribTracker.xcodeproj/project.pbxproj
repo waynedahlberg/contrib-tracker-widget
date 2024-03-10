@@ -13,12 +13,27 @@
 		B0F4B8FE2B9E503100143B40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0F4B8FD2B9E503100143B40 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B0F4B9202B9E50A900143B40 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B0F4B8F32B9E503000143B40 /* ContribTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContribTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F4B8F62B9E503000143B40 /* ContribTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContribTrackerApp.swift; sourceTree = "<group>"; };
 		B0F4B8F82B9E503000143B40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0F4B8FA2B9E503100143B40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0F4B8FD2B9E503100143B40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0F4B90A2B9E50A800143B40 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B0F4B90C2B9E50A800143B40 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				B0F4B8F52B9E503000143B40 /* ContribTracker */,
+				B0F4B9092B9E50A800143B40 /* Frameworks */,
 				B0F4B8F42B9E503000143B40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				B0F4B8F62B9E503000143B40 /* ContribTrackerApp.swift */,
-				B0F4B8F82B9E503000143B40 /* ContentView.swift */,
+				B0F4B9242B9E520100143B40 /* Views */,
 				B0F4B8FA2B9E503100143B40 /* Assets.xcassets */,
 				B0F4B8FC2B9E503100143B40 /* Preview Content */,
 			);
@@ -67,6 +83,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B0F4B9092B9E50A800143B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4B90A2B9E50A800143B40 /* WidgetKit.framework */,
+				B0F4B90C2B9E50A800143B40 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0F4B9242B9E520100143B40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4B8F82B9E503000143B40 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +110,7 @@
 				B0F4B8EF2B9E503000143B40 /* Sources */,
 				B0F4B8F02B9E503000143B40 /* Frameworks */,
 				B0F4B8F12B9E503000143B40 /* Resources */,
+				B0F4B9202B9E50A900143B40 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -111,6 +145,9 @@
 				Base,
 			);
 			mainGroup = B0F4B8EA2B9E503000143B40;
+			packageReferences = (
+				B0F4B9212B9E50F000143B40 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = B0F4B8F42B9E503000143B40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,6 +304,7 @@
 		B0F4B9022B9E503100143B40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +334,7 @@
 		B0F4B9032B9E503100143B40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -344,6 +383,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0F4B9212B9E50F000143B40 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = B0F4B8EB2B9E503000143B40 /* Project object */;
 }
